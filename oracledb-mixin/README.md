@@ -6,10 +6,7 @@ OracleDB mixin is a set of configurable alerts and dashboards that use the third
 
 | Alert                              | Description                                                           | Default Threshold |
 | ---------------------------------- | --------------------------------------------------------------------- | ----------------- |
-| OracledbReachingSessionLimit       | number of processess being utilized exceeded a theshold.              | 85%               |
-| OracledbReachingProcessLimit       | The number of processess being utilized exceeded the threshold.       | 85%               |
 | OracledbTablespaceReachingCapacity | A Tablespace is exceeded its threshold of its maximum allotted space. | 85%               |
-| OracledbFileDescriptorLimit        | File descriptors usage is reaching its threshold.                     | 85%               |
 
 Default thresholds can be configured in `config.libsonnet`.
 
